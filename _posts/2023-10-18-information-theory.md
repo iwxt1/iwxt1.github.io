@@ -55,7 +55,7 @@ $$
 
 
 
-## 相对熵（Killback-Leibler Divergence）
+# 相对熵（Killback-Leibler Divergence）
 
 
 
@@ -80,7 +80,7 @@ Q对于P的散度，吉布斯不等式得到$\ge$，观察展开前一项为交�
 
 
 
-## 交叉熵（Cross Entropy）
+# 交叉熵（Cross Entropy）
 
 
 
@@ -99,7 +99,7 @@ $$
 
 
 
-## 条件熵（Conditional Entropy）
+# 条件熵（Conditional Entropy）
 
 
 
@@ -127,7 +127,7 @@ $$
 
 
 
-## 互信息（Mutual Information）
+# 互信息（Mutual Information）
 
 
 
