@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "iwxt1"
+title                    : "i1"
 title_separator          : "-"
-name                     : &name "iwxt1"
-description              : &description "Postdoc in Political Science"
+name                     : &name "i1"
+description              : &description "Undergraduate student, Nanjing University"
 url                      : https://iwxt1.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "iwtx1/iwxt1.github.io"
+repository               : "iwxt1/iwxt1.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -28,7 +28,7 @@ comments:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     appid                :
-    num_posts            : # 5 (default)
+    num_posts            : 5 #(default)
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 mastodon:
-  username               : "fosstodon.org/@jayrobw"
+  username               : #"fosstodon.org/@jayrobw"
 twitter:
   username               : 
 facebook:
@@ -75,24 +75,21 @@ social:
 
 # Analytics
 analytics:
-  provider               : "goatcounter" # false (default), "google", "google-universal", "custom", "goatcounter"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom", "goatcounter"
   google:
     tracking_id          : 
-  goatcounter:
-    code		 : jayrobwilliams
-
 
 # Site Author
 author:
-  name             : "Rob Williams"
+  name             : "i1"
   avatar           : "profile.png"
-  bio              : "Data Scientist"
+  bio              : "Undergraduate student, Nanjing University"
   location         :
   employer         :
   pubmed           :
-  orcid            : "http://orcid.org/0000-0001-9259-3883"
-  googlescholar    : "https://scholar.google.com/citations?user=fiaPSmgAAAAJ"
-  email            : "rob.williams@wustl.edu"
+  orcid            : #"http://orcid.org/0000-0001-9259-3883"
+  googlescholar    : #"https://scholar.google.com/citations?user=fiaPSmgAAAAJ"
+  email            : #"rob.williams@wustl.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -101,15 +98,15 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "jayrobwilliams"
-  gitlab           : "jayrobwilliams"
+  github           : #"iwxt1"
+  gitlab           : #"jayrobwilliams"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  mastodon         : "fosstodon.org/@jayrobw"
+  mastodon         : #"fosstodon.org/@jayrobw"
   pinterest        :
   soundcloud       :
   stackoverflow    : #"https://stackoverflow.com/users/10912314/jayrobwilliams"
@@ -258,7 +255,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
+paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 timezone: America/Chicago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
