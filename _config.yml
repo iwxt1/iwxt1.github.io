@@ -11,7 +11,7 @@ title                    : "i1"
 title_separator          : "-"
 name                     : &name "i1"
 location                 : &location "Nanjing, China"
-description              : &description "Undergraduate student,\n Nanjing University"
+description              : &description "Nanjing University"
 url                      : https://iwxt1.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "iwxt1.github.io"
@@ -57,8 +57,8 @@ alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
-mastodon:
-  username               : #"fosstodon.org/@jayrobw"
+# mastodon:
+#   username               : #"fosstodon.org/@jayrobw"
 twitter:
   username               : 
 facebook:
